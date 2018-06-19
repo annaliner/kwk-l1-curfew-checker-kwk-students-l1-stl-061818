@@ -12,5 +12,5 @@ difference = curfew - time
   end
 end
 
-curfew_checker(9)
+curfew_checker(4)
 
