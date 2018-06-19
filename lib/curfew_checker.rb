@@ -1,5 +1,10 @@
 def simple_curfew_checker(time)
-  # code goes here
+  curfew = 11
+  difference = curfew - time
+    if time > curfew
+    puts "You're in trouble! Better get home quick!"
+  elsif  time == curfew
+    puts "Time to apparate!"
 end
 
 def curfew_checker(time)
